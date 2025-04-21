@@ -58,7 +58,7 @@ cd fvs
 ```
 Install fvs:
 ```
-sudo apt install fvs.deb
+sudo dpkg -i fvs.deb
 ```
 or
 ```
