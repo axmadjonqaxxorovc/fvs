@@ -64,3 +64,31 @@ or
 ```
 sudo dpkg -i fvs_updated_version.deb
 ```
+     
+
+**Adding fvs.exe to System PATH:**
+
+*Move the fvs.exe file to a permanent directory:*
+
+Example:
+```C:\Programs\fvs\```
+
+**Add the folder to your system PATH:**
+
+- *Press Win + S and search for "Environment Variables".*
+
+- *Open Environment Variables, and click Edit on the Path variable.*
+
+- *Click New and paste the path where fvs.exe is located (for example, C:\Programs\fvs\).*
+
+- *Click OK, OK, and Close all windows.*
+
+**Important Note:**
+*Avoid placing fvs.exe in the root folder (e.g., C:\fvs.exe).
+Adding a file directly to the root folder (C:\) and then including that folder in the PATH can cause security and operational issues. It's recommended to place the file in a subdirectory like C:\Programs\fvs\ to ensure smooth operation and avoid potential risks.*
+
+**Open a terminal and simply type:**
+
+```fvs -p <path>```
+
+*Your tool will now run from anywhere! 🎉*
