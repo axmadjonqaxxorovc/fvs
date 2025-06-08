@@ -2,6 +2,15 @@
 
 **Folder View System (FVS)** is a Python application that lets you interactively view and display the structure of directories and their files in a clean and visually appealing format. It includes features to enhance the experience, such as displaying folder structures, file names, and additional useful arguments for project information.
 
+
+*If the version is outdated, some functions may not work properly. Please use the*
+
+```
+fvs -h
+```
+*command to check which functions are supported!*
+
+
 ---
 
 ## Features
@@ -13,6 +22,7 @@
 - 🔄 **Provides an interactive terminal experience**.
 
 ---
+
 
 ## Prerequisites
 
